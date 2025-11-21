@@ -39,10 +39,11 @@ export const Testimonials = () => {
         <div className="py-16 lg:py-24">
             <div className="container mx-auto px-4 md:px-8">
                 <SectionHeader
-                    eyebrow="Happy Client"
-                    title="What My Clients Say"
-                    description="Don't just take my word for it. See what my client say about my work"
+                    eyebrow="What People Say"
+                    title="Feedback from Friends & Teammates"
+                    description="Here are a few words from friends and peers I’ve collaborated with during college and project work."
                 />
+
                 <div className="mt-12 lg:mt-20 flex overflow-x-clip mask-[linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
                     <div className="flex gap-8 flex-none py-4 animate-move-left animation-duration-[90s] hover:paused">
                         {[...new Array(2)].fill(0).map((_, index) => (
