@@ -18,8 +18,8 @@ import GithubIcon from "@/assets/icons/github.svg";
 import GithubActions from "@/assets/icons/githubactions.svg";
 import moneyPsychology from "@/assets/images/thepsychologyofmoney.png";
 import atomicHabits from "@/assets/images/atomichabbits.png";
-import handsOnMachineLearning from "@/assets/images/mlbook.png";
-import richDadPoorDad from "@/assets/images/richdadpoordad.jpg";
+import theCourageToBeDisliked from "@/assets/images/theCouragetoBeDisliked.jpg";
+import howtoWinFriends from "@/assets/images/howtoWinFriends.png";
 import ibm from "@/assets/images/ibm.jpg";
 import google from "@/assets/images/google.jpg";
 import oracle from "@/assets/images/oracle.jpg";
@@ -197,17 +197,17 @@ export const About = () => {
                                     className="w-40 h-60 rounded-sm object-cover z-40 border-2 border-gray-700"
                                 />
                                 <Image
-                                    src={richDadPoorDad}
+                                    src={theCourageToBeDisliked}
                                     alt="Certificate 2"
                                     className="w-40 h-60 rounded-sm object-cover shadow-md -ml-32 z-30 border-2 border-gray-700"
                                 />
                                 <Image
-                                    src={moneyPsychology}
+                                    src={howtoWinFriends}
                                     alt="Certificate 3"
                                     className="w-40 h-60 rounded-sm object-cover -ml-32 z-20 border-2 border-gray-700"
                                 />
                                 <Image
-                                    src={handsOnMachineLearning}
+                                    src={moneyPsychology}
                                     alt="Certificate 3"
                                     className="w-40 h-60 rounded-sm object-cover -ml-32 z-10 border-2 border-gray-700"
                                 />
@@ -245,11 +245,7 @@ export const About = () => {
                         <Card className="h-80 relative col-span-2 lg:col-span-1">
                             <CardHeader title="Credentials" description="Certified in data science and analytics domains." />
                             <div className="mx-6 mt-2 md:mt-0 cursor-pointer flex items-center overflow-hidden" onClick={() => setOpenCertificates(true)}>
-                                <Image
-                                    src={ibm}
-                                    alt="Certificate 1"
-                                    className="w-40 h-auto rounded-md object-cover z-30 border-2 border-gray-700"
-                                />
+                                <Image src={ibm} alt="Certificate 1" className="w-40 h-auto rounded-md object-cover z-30 border-2 border-gray-700" />
                                 <Image
                                     src={google}
                                     alt="Certificate 2"
